@@ -44,3 +44,12 @@ SELECT * FROM products;
 
 SELECT * FROM products
 WHERE stock > 15;
+
+SELECT * FROM Products 
+WHERE price BETWEEN 1000000 AND 25000000;
+
+SELECT * FROM Products 
+WHERE product_name <> 'iPhone 15' AND stock > 0;
+  
+SELECT * FROM Products 
+WHERE category_id <> 1 AND price > 500000;
