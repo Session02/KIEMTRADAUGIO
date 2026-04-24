@@ -30,6 +30,10 @@ UPDATE products
 SET price = 26000000
 WHERE product_name = 'iphone 15';
 
+UPDATE products
+SET stock = stock + 10
+WHERE category_id = 1;
+
 DELETE FROM products
 WHERE product_id = 4;
 
